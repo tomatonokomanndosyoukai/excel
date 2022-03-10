@@ -2,5 +2,15 @@
 
 <a href= "https://script.google.com/a/macros/edu.city.yokohama.jp/s/AKfycbzgUMzTgh-Xn2sGiJFGA7Hr3xBSD8IqMYjd0pHC8gf-1FSK-ufi8iiIHkyA1w2ZAJYC5A/exec?q=<span id=\"span1\"></span>" >送信</a>
 
+   <p>書き込み</p>
+<input type="text" value="" id="text1" maxlength="100" />
+<input type="button" value="決定" onclick="clickBtn1()" />
+
+<script>
+  function clickBtn1() {
+    const t1 = document.getElementById("text1").value;
+    document.getElementById("span1").textContent = t1;
+  }
+</script>
 
 </html>
